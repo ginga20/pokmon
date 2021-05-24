@@ -4,11 +4,14 @@
   width: 920px;
   height: auto;
 }
-
+#titre{
+  color: yellow;
+  text-align: center;
+}
 body{
   background-image: url("images/tokyomon.png");
 }
-#titre{
+#textebooster{
   color: yellow;
   position: relative;
 }
