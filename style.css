@@ -1,0 +1,172 @@
+#vvideos{
+  margin-top:10%;
+  margin-left: 28%;
+  width: 920px;
+  height: auto;
+}
+
+body{
+  background-image: url("tokyomon.png");
+}
+#titre{
+  color: yellow;
+  position: relative;
+}
+#boo{
+  color: yellow;
+  position: relative;
+  margin-left: 19%;
+}
+/*position booster ouvertyure*/
+#bouton1{
+  margin-left: 33%;
+  margin-top: -3%;
+  position: relative;
+}
+#textebooster{
+  position: relative;
+  margin-left:38%; 
+  
+}
+/*position des cartes */
+#divcarte{
+  margin-top: 14.3%
+}
+#carte1{
+  display: inline-block;
+  position:relative;
+  margin-left: 3%;
+}
+
+#carte2{
+  display: inline-block;
+}
+
+#carte3{
+  display: inline-block;
+  position: relative;
+}
+
+#carte4{
+  display: inline-block;
+  position: relative;
+  margin-left: 17%;
+}
+
+#carte5{
+  display: inline-block;
+  position: relative;
+}
+
+#carte6{
+  position: relative;
+  margin-left: 36%
+}
+
+/*effet rotation cartes*/
+.flipcard {
+ margin:20px;
+  position: relative;
+  width: 420px;
+  height: 574px;
+  perspective: 500px;
+}
+.flipcard.v:hover .front, .flipcard.v.flip .front{
+  transform: rotateX(180deg);
+}
+.flipcard.v:hover .back, .flipcard.v.flip .back{
+  transform: rotateX(0deg);
+}
+.flipcard.v .back{
+  transform: rotateX(-180deg);
+}
+.flipcard.h:hover .front, .flipcard.h.flip .front{
+  transform: rotateY(180deg);
+}
+.flipcard.h:hover .back, .flipcard.h.flip .back{
+  transform: rotateY(0deg);
+}
+.flipcard.h .back{
+  transform: rotateY(-180deg);
+}
+.flipcard .front 
+{
+  position:absolute;
+  width: 424px;
+  height: 570px;
+  box-sizing: border-box;
+  transition: all 1s ease-in;
+  color: white;
+  /*background-image: url("Cartes/arrierecarte.jpg");*/
+  padding: 10px;
+  backface-visibility: hidden;
+box-shadow:6px 6px 10px black;
+}
+.flipcard .back 
+{
+  position:absolute;
+  width: 424px;
+  height: 570px;
+  box-sizing: border-box;
+  transition: all 1s ease-in;
+  color: yellow;
+  padding: 10px;
+  backface-visibility: hidden;
+box-shadow:6px 6px 10px black;
+pointer-events: 
+}
+
+
+/**/
+
+
+
+
+.box{
+	width: 200px;
+	height: 200px;
+	display:inline-block;
+	margin:20px;
+	position: relative;
+	border: 6px solid #ccc;
+	border-radius: 50%;
+	background-image: -moz-radial-gradient(40% 40%,circle,rgba(0,0,0,.1) 40%,rgba(0,0,0,1) 100%), -moz-linear-gradient(-90deg, #f33 45%, #333 45%, #3f3f3f 50%, #333 55%, #FFF 55%);
+	background-image: -webkit-radial-gradient(40% 40%,circle,rgba(0,0,0,.1) 40%,rgba(0,0,0,1) 100%),-webkit-linear-gradient(-90deg, #f33 45%, #333 45%, #3f3f3f 50%, #333 55%, #FFF 55%);
+}
+.box:before{
+	content: "rejouer";
+	display: block;
+	position: absolute;
+	z-index: 6;
+	width: 20%;	
+	height: 20%;
+	background-color: #FFF;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #AAA, 0 0 0 10px #fff, 0 0 0 16px #3f3f3f;
+	margin: 40%;
+}
+.box:after{
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: 1;
+	width: 0%;
+	height: 10%;
+	background-color:rgba(0,0,0,0);
+	margin: 45% 3%;
+	box-shadow: 12px 0 0 #FFF, 0px 0 0 #FFF;
+}
+.box:hover{ -webkit-animation:shak .3s infinite; -moz-animation:shak .3s infinite;}
+@-webkit-keyframes shak{
+	0%,100%{ -webkit-transform:rotate(-10deg);}
+	50%{-webkit-transform:rotate(10deg);}
+}
+@-moz-keyframes shak{
+	0%,100%{ -moz-transform:rotate(-10deg);}
+	50%{-moz-transform:rotate(10deg);}
+}
+
+
+.box{
+	margin-left: 43%;
+}
