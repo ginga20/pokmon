@@ -1,3 +1,5 @@
+
+
 /*rare en brillant*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -73,13 +75,15 @@ body{
 #boo1{
   color: yellow;
   position: relative;
-  margin-left: 17%;
+  margin-left: 20%;
+  margin-right:65%;
+  margin-top: -10px;
 }
 
 /*position booster ouvertyure*/
 #bouton1{
   margin-left: 33%;
-  margin-top: -3%;
+  margin-top: -7%;
   position: relative;
 }
 #textebooster{
