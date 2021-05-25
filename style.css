@@ -10,7 +10,7 @@
 }
 body{
   background-image: url("images/tokyomon.png");
-  font-weight: 100%;
+  background-repeat:no-repeat;
 }
 #textebooster{
   color: yellow;
