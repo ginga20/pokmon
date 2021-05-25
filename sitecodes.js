@@ -10,6 +10,7 @@ var choiximage5 = document.getElementById('choiximg5');
 var videostyle = document.getElementById('vvideos');
 var btnrejouer = document.getElementById('btnrejouer');
 var divrejouer = document.getElementById('divrejouer');
+var ultraaff = document.getElementById('ultraaff');
 
 
 var nb_carte = 9;// Achanger
@@ -23,6 +24,7 @@ var tempvideoopen = 2300;
 
 vvideos.style.display = "none";
 divcarte.style.display = "none";
+ultraaff.style.display = "none";
 
 btn1.addEventListener("click" , () => {
 	if(getComputedStyle(div1).diplay != "none"){
@@ -60,6 +62,7 @@ function carte_alea(){
     if(lanc === 1) {
 		var lancerultra = Math.floor(Math.random()*nb_carte_ultra +1);
 		choiximage5.src = 'Cartes/ultras/' +lancerultra + ".jpg";   //carte ultra_rare
+		ultraaff.style.display = "block";
 	}
 	else{
 			var lancer6 = Math.floor(Math.random()*nb_rare +1); // carrte rare
@@ -75,6 +78,7 @@ function carte_alea(){
 //fontion pour animation opening booster
 function open_booster(){
 	videostyle.style.display = "block";
+	ultraaff.style.display = "none";
 	video.load();
 	video.play();		
 };
