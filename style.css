@@ -69,6 +69,13 @@ body{
   position: relative;
   margin-left: 19%;
 }
+
+#boo1{
+  color: yellow;
+  position: relative;
+  margin-left: 17%;
+}
+
 /*position booster ouvertyure*/
 #bouton1{
   margin-left: 33%;
