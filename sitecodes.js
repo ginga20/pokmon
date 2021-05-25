@@ -12,9 +12,9 @@ var btnrejouer = document.getElementById('btnrejouer');
 var divrejouer = document.getElementById('divrejouer');
 
 
-var nb_carte = 2;// Achanger
-var nb_rare = 1; //A modif
-var nb_carte_ultra = 1;// Acahnger
+var nb_carte = 9;// Achanger
+var nb_rare = 5; //A modif
+var nb_carte_ultra = 3;// Acahnger
 
 
 var video = document.getElementById('video');
