@@ -78,6 +78,7 @@ function carte_alea(){
  
 //fontion pour animation opening booster
 function open_booster(){
+	divcarte.style.display = "none";
 	videostyle.style.display = "block";
 	ultraaf.style.display = "none";
 	video.load();
