@@ -14,8 +14,8 @@ var ultraaf =  document.getElementById('ultraaf');
 var ultraaff =  document.getElementsByClassName('ultraaff');
 
 
-var nb_carte = 21;// Achanger
-var nb_rare = 7; //A modif
+var nb_carte = 20;// Achanger
+var nb_rare = 9; //A modif
 var nb_carte_ultra = 4;// Acahnger
 
 
