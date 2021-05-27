@@ -59,7 +59,7 @@ function carte_alea(){
     choiximage4.src = 'Cartes/' +lancer4 + ".jpg";
     
     
-    var lanc = Math.floor(Math.random()*0 +1);
+    var lanc = Math.floor(Math.random()*10 +1);
     if(lanc === 1) {
 		var lancerultra = Math.floor(Math.random()*nb_carte_ultra +1);
 		choiximage5.src = 'Cartes/ultras/' +lancerultra + ".jpg";   //carte ultra_rare
