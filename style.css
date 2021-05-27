@@ -47,8 +47,8 @@ body {
 
 
 #vvideos{
- margin-top:100px;
-  margin-left: 28%;
+ margin-top:30px;
+ margin-left: 10%;
   width: 920px;
   height: auto;
 }
@@ -84,7 +84,7 @@ body{
 /*position booster ouvertyure*/
 #bouton1{
   margin-left: 33%;
-  margin-top: -7%;
+  margin-top: -5%;
   position: relative;
 }
 #textebooster{
