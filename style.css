@@ -63,6 +63,7 @@ body{
 
 }
 #textebooster{
+  margin-left: #bouton1;
   color: yellow;
   position: relative;
 }
