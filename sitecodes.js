@@ -53,10 +53,10 @@ function carte_alea(){
     choiximage2.src = 'Cartes/' +lancer2 + ".jpg";
     
     var lancer3 = Math.floor(Math.random()*nb_carte +1); // choix d'un chiffre aléatoire entre 1 et 
-    choiximage3.src = 'Cartes/' +lancer + ".jpg";
+    choiximage3.src = 'Cartes/' +lancer3 + ".jpg";
     
-    var lance4r = Math.floor(Math.random()*nb_carte +1); // carte rare
-    choiximage4.src = 'Cartes/' +lancer + ".jpg";
+    var lancer4 = Math.floor(Math.random()*nb_carte +1); // carte rare
+    choiximage4.src = 'Cartes/' +lancer4 + ".jpg";
     
     
     var lanc = Math.floor(Math.random()*10 +1);
